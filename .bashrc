@@ -2,6 +2,8 @@
 #export PS1='\[\e[1;32m\]\u@\h:\w${text}$\[\e[m\] '
 export PS1="\[\033[35m\]\t\[\033[m\] \[\033[36m\]\u\[\033[m\]@\[\033[32m\]\h:\[\033[33;1m\]\w\[\033[m\]\$ "
 
+# export PS1="\@[\u@ \h] \W\\$ "
+
 alias ls='ls -G'
 alias l='ls -lh'
 alias la='ls -a'
