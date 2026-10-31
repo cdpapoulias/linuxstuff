@@ -9,20 +9,14 @@ alias l='ls -lh'
 alias la='ls -a'
 alias c='clear'
 alias ..='cd ..'
-alias h='heroku'
 alias le='less'
 alias ht='htop'
 alias df='df -h'
-alias calc='/Applications/Calculator.app/Contents/MacOS/Calculator'
 alias bu='brew update'
 alias v='vim'
 alias e='emacs'
 alias bgu='c;brew update;gem update;gem clean'
 alias s='source ~/.bashrc'
-alias h='/usr/local/heroku/bin/heroku '
-
-### Added by the Heroku Toolbelt
-export PATH="/usr/local/heroku/bin:$PATH"
 
 export PATH="$HOME/.composer/vendor/bin:$PATH"
 
